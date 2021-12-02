@@ -14,8 +14,8 @@ Each item makes use of the Song model and the serializer assigned to that model.
     Then using the get method in which I perform an SQL query and execute it with the .raw () method, the results are obtained. 
     To which I apply serializer to be able to return them.
 
-3.  Delete song. The elimination of a song is carried out by taking as an identifier the, id of a song. 
-    Using the delete method, it receives a parameter (pk) which is the, id of the song and this is sent via URL. 
+3.  Delete song. The elimination of a song is carried out by taking as an identifier the, songId of a song. 
+    Using the delete method, it receives a parameter (pk) which is the, songId of the song and this is sent via URL. 
     I use the try and except inside the try the query is made to obtain the object corresponding to that id and when it exists it is eliminated 
     and a success message is returned. Inside the except, if the object corresponding to that id does not exist, an error message is displayed.
 
