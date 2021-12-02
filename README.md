@@ -50,15 +50,25 @@ Running solution:
 
 Necessary programs.
 -Install Python 3.1
+
 -Install django: pip install Django == 3.2.9
+
 -Install django rest framework: pip install djangorestframework
+
 -Make migrations: python manage.py makemigrations
+
 -Run migrations: python manage.py migrate
+
 -Run the file populate.py: python populate.py
+
 -Create a superuser and fill in the requested data: python manage.py createsuperuser
+
 -Run server: python manage.py runserver
+
 -To obtain the authentication token and be able to execute the endpoints using an application to perform API tests, execute the following endpoint with the POST method. http://127.0.0.1:8000/songs/api-token-auth/ sending the username and password keys with their respective values. Using the POST method. These being the data that were entered in step 5.
+
 -Save necessary token to access any of the other endpoints.
+
 -Endpoints to be able to access add each one to the end of the address http://127.0.0.1:8000/songs/
 
   search / <str: pk> /
