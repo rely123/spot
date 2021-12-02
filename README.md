@@ -71,16 +71,16 @@ Necessary programs.
 
 -Endpoints to be able to access add each one to the end of the address http://127.0.0.1:8000/songs/
 
-  search / <str: pk> /
+   search/<str:pk>/
   Search by song name. Send by URL the name of the song replacing <str: pk> with the word. With GET method.
  
-  list /
+   list/
   List the TOP 50 songs. With GET method
 
-  delete / <int: pk> /
+   delete/<int:pk>/
   Delete a song. Send by URL the id of the song replacing <int: pk> by the id of the song to delete. With DELETE method
 
-  add /
+   add/
   Add a song. With POST method
   
   Requested fields
@@ -97,5 +97,5 @@ Necessary programs.
     "genres":
   }
  
-  group / <str: pk> /
+   group/<str: pk>/
   Show songs by genre. Send by URL the name of the genre replacing <str: pk> with the desired genre. Using GET method
