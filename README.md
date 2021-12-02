@@ -73,7 +73,7 @@ Necessary programs.
 
    search/str:pk/
    
-  Search by song name. Send by URL the name of the song replacing <str: pk> with the word. With GET method.
+  Search by song name. Send by URL the name of the song replacing str:pk with the word. With GET method.
  
    list/
    
@@ -81,7 +81,7 @@ Necessary programs.
 
    delete/int:pk/
    
-  Delete a song. Send by URL the id of the song replacing <int: pk> by the id of the song to delete. With DELETE method
+  Delete a song. Send by URL the id of the song replacing int:pk by the id of the song to delete. With DELETE method
 
    add/
    
@@ -101,6 +101,6 @@ Necessary programs.
     "genres":
   }
  
-   group/<str: pk>/
+   group/str:pk/
    
   Show songs by genre. Send by URL the name of the genre replacing str:pk with the desired genre. Using GET method
